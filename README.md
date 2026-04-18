@@ -9,6 +9,8 @@ i build things constantly, things i deeply care about. along the way i keep find
   <a href="https://claude.com/product/claude-code"><img src="https://img.shields.io/badge/built_for-Claude%20Code-d97706" alt="Built for Claude Code"></a>
 </p>
 
+<p align="center"><img src="assets/og.png" alt="codyhxyz-plugins" width="760"></p>
+
 ## install
 
 ```
