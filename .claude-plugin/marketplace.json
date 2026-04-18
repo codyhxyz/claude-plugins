@@ -156,6 +156,34 @@
         "brainstorming",
         "copywriting"
       ]
+    },
+    {
+      "name": "statusline",
+      "source": {
+        "source": "github",
+        "repo": "codyhxyz/statusline"
+      },
+      "description": "A Claude Code statusline with HSL-gradient ring meters for context window, 5h/7d rate limits, and live reset countdowns — catch context rot before Anthropic tells you to /clear.",
+      "author": {
+        "name": "Cody Hergenroeder",
+        "email": "plugins@codyh.xyz"
+      },
+      "homepage": "https://github.com/codyhxyz/statusline",
+      "repository": "https://github.com/codyhxyz/statusline",
+      "license": "MIT",
+      "keywords": [
+        "claude-code",
+        "statusline",
+        "context-window",
+        "rate-limits",
+        "token-management"
+      ],
+      "category": "developer-tools",
+      "tags": [
+        "statusline",
+        "context-management",
+        "rate-limits"
+      ]
     }
   ]
 }

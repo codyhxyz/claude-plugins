@@ -36,6 +36,7 @@ pull new plugins and version bumps:
 | [`first-principles-review` 🔬](https://github.com/codyhxyz/first-principles-review) | A better code review. Use after one-shotting a project, when you want to make sure Claude built what you wanted it to. Scope creep killer. |
 | [`eureka` ⚡](https://github.com/codyhxyz/eureka) | A subagent for when claude is trying all the wrong things. Use it when you need Claude to think outside the box. This is my #1 most helpful plugin for unblocking stuck coding sessions. 💡 |
 | [`synonymmer` 📚](https://github.com/codyhxyz/synonymmer) | Thesaurus on steroids for naming and writing. Outputs 100-200 latent-space-near words and phrases related to your seed term, organized into clusters. |
+| [`statusline` 📊](https://github.com/codyhxyz/statusline) | A Claude Code statusline with HSL-gradient ring meters for context window and 5h/7d rate limits with live reset countdowns. Catch context rot before Anthropic tells you to `/clear`. |
 
 ## why these exist
 
