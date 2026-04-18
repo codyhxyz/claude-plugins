@@ -34,7 +34,7 @@ Pull new plugins and version bumps:
 | [`create-claude-plugin`](https://github.com/codyhxyz/create-claude-plugin) | A Claude plugin that ships Claude plugins — scaffold, validate, push, and submit to the official Anthropic marketplace in one session. |
 | [`prompt-optimizer`](https://github.com/codyhxyz/prompt-optimizer) | Turns vague task requests into grounded, structured specs before your implementation agent runs. |
 | [`first-principles-review`](https://github.com/codyhxyz/first-principles-review) | Reviews codebases top-down — WHY (goal) → WHAT (architecture) → HOW (implementation) → improvements ranked by leverage. The antidote to surface-level LLM nitpicks. |
-| [`iconoclast`](https://github.com/codyhxyz/iconoclast) | A subagent for when Claude is playing it safe. Pushes toward edge-of-training-data techniques instead of the obvious fix. |
+| [`iconoclast`](https://github.com/codyhxyz/iconoclast) | A subagent for when Claude is trying all the wrong things — drops the safe answer and reaches for the edge of its training data. |
 | [`synonymmer`](https://github.com/codyhxyz/synonymmer) | 100–200 wide-net related words for a seed term, organized into vibe-based clusters. Thesaurus-on-steroids for naming and brainstorming. |
 
 ## How this is wired

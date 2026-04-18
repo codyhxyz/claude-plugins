@@ -22,9 +22,19 @@
       "homepage": "https://github.com/codyhxyz/prompt-optimizer",
       "repository": "https://github.com/codyhxyz/prompt-optimizer",
       "license": "MIT",
-      "keywords": ["claude-code", "agent", "prompt-engineering", "prompt-optimization", "meta"],
+      "keywords": [
+        "claude-code",
+        "agent",
+        "prompt-engineering",
+        "prompt-optimization",
+        "meta"
+      ],
       "category": "prompt-engineering",
-      "tags": ["agent-handoff", "prompt-engineering", "meta"]
+      "tags": [
+        "agent-handoff",
+        "prompt-engineering",
+        "meta"
+      ]
     },
     {
       "name": "create-claude-plugin",
@@ -40,9 +50,23 @@
       "homepage": "https://github.com/codyhxyz/create-claude-plugin",
       "repository": "https://github.com/codyhxyz/create-claude-plugin",
       "license": "MIT",
-      "keywords": ["claude-code", "plugin", "marketplace", "scaffold", "skill", "agent", "developer-tools", "plugin-development"],
+      "keywords": [
+        "claude-code",
+        "plugin",
+        "marketplace",
+        "scaffold",
+        "skill",
+        "agent",
+        "developer-tools",
+        "plugin-development"
+      ],
       "category": "developer-tools",
-      "tags": ["plugin-development", "meta", "scaffold", "publishing"]
+      "tags": [
+        "plugin-development",
+        "meta",
+        "scaffold",
+        "publishing"
+      ]
     },
     {
       "name": "first-principles-review",
@@ -58,9 +82,20 @@
       "homepage": "https://github.com/codyhxyz/first-principles-review",
       "repository": "https://github.com/codyhxyz/first-principles-review",
       "license": "MIT",
-      "keywords": ["claude-code", "skill", "code-review", "architecture", "first-principles", "refactoring"],
+      "keywords": [
+        "claude-code",
+        "skill",
+        "code-review",
+        "architecture",
+        "first-principles",
+        "refactoring"
+      ],
       "category": "code-review",
-      "tags": ["code-review", "architecture", "first-principles"]
+      "tags": [
+        "code-review",
+        "architecture",
+        "first-principles"
+      ]
     },
     {
       "name": "iconoclast",
@@ -68,7 +103,7 @@
         "source": "github",
         "repo": "codyhxyz/iconoclast"
       },
-      "description": "A Claude Code subagent for when Claude is playing it safe and you need it to actually solve the problem. Pushes toward edge-of-training-data techniques instead of the obvious fix.",
+      "description": "A Claude Code subagent for when Claude is trying all the wrong things — drops the safe answer and reaches for the edge of its training data.",
       "author": {
         "name": "Cody Hergenroeder",
         "email": "plugins@codyh.xyz"
@@ -76,9 +111,21 @@
       "homepage": "https://github.com/codyhxyz/iconoclast",
       "repository": "https://github.com/codyhxyz/iconoclast",
       "license": "MIT",
-      "keywords": ["claude-code", "agent", "subagent", "performance", "refactoring", "first-principles", "architecture"],
+      "keywords": [
+        "claude-code",
+        "agent",
+        "subagent",
+        "performance",
+        "refactoring",
+        "first-principles",
+        "architecture"
+      ],
       "category": "architecture",
-      "tags": ["subagent", "first-principles", "unconventional"]
+      "tags": [
+        "subagent",
+        "first-principles",
+        "unconventional"
+      ]
     },
     {
       "name": "synonymmer",
@@ -94,9 +141,21 @@
       "homepage": "https://github.com/codyhxyz/synonymmer",
       "repository": "https://github.com/codyhxyz/synonymmer",
       "license": "MIT",
-      "keywords": ["claude-code", "naming", "brainstorming", "thesaurus", "writing", "copywriting", "wordlist"],
+      "keywords": [
+        "claude-code",
+        "naming",
+        "brainstorming",
+        "thesaurus",
+        "writing",
+        "copywriting",
+        "wordlist"
+      ],
       "category": "writing",
-      "tags": ["naming", "brainstorming", "copywriting"]
+      "tags": [
+        "naming",
+        "brainstorming",
+        "copywriting"
+      ]
     }
   ]
 }
