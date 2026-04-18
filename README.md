@@ -2,7 +2,7 @@
 
 *agentic scaffolding for thinking alongside LLMs.*
 
-i build things constantly, things i deeply care about. i keep finding heuristics that work for me, and if they work for me they probably work for someone else too. so in the spirit of open-sourcing myself, i'm open-sourcing the heuristics as plugins. these are ways i work with claude.
+i build things constantly, things i deeply care about. along the way i keep finding little heuristics that work for me, and if they work for me they probably work for someone else too. so in the spirit of open-sourcing myself, i'm open-sourcing the heuristics as plugins. this is how i work with claude.
 
 <p>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
@@ -31,21 +31,21 @@ pull new plugins and version bumps:
 
 | Plugin | What it does |
 |---|---|
-| [`create-claude-plugin`](https://github.com/codyhxyz/create-claude-plugin) | A Claude plugin that ships Claude plugins. Scaffold, validate, push, and submit to the official Anthropic marketplace in one session. |
-| [`prompt-optimizer`](https://github.com/codyhxyz/prompt-optimizer) | Turns vague task requests into grounded, structured specs before your implementation agent runs. |
+| [`create-claude-plugin`](https://github.com/codyhxyz/create-claude-plugin) | A claude plugin that ships claude plugins. Scaffold it, validate it, push it, submit it to the official Anthropic marketplace, all in one session. |
+| [`prompt-optimizer`](https://github.com/codyhxyz/prompt-optimizer) | Turns a vague task request into a proper spec before your implementation agent touches anything. |
 | [`first-principles-review`](https://github.com/codyhxyz/first-principles-review) | Reviews codebases top-down: WHY (goal) → WHAT (architecture) → HOW (implementation) → improvements ranked by leverage. Questions the premise, not the semicolons. |
-| [`iconoclast`](https://github.com/codyhxyz/iconoclast) | A subagent for when Claude is trying all the wrong things. Drops the safe answer and reaches for the edge of its training data. |
-| [`synonymmer`](https://github.com/codyhxyz/synonymmer) | 100–200 wide-net related words for a seed term, organized into vibe-based clusters. Thesaurus-on-steroids for naming and brainstorming. |
+| [`iconoclast`](https://github.com/codyhxyz/iconoclast) | A subagent for when claude is trying all the wrong things. Drops the safe answer and reaches for the edge of its training data. |
+| [`synonymmer`](https://github.com/codyhxyz/synonymmer) | 100–200 wide-net related words for a seed term, organized into vibe-based clusters. Thesaurus on steroids for naming and brainstorming. |
 
 ## why these exist
 
-some are cognitive scaffolding for unhobbling LLMs. some are cognitive scaffolding for unhobbling yourself. some are just neat tools and novelties.
+some of these are scaffolding for unhobbling the model. some are scaffolding for unhobbling yourself. a couple are just neat.
 
-watch this space. i'm getting obsessed with claude plugins and starting to understand something about them. that's why i built [`create-claude-plugin`](https://github.com/codyhxyz/create-claude-plugin) after all, because i knew i'd be shipping a ton of these.
+watch this space. i'm getting obsessed with claude plugins and starting to understand something about them, which is why i built [`create-claude-plugin`](https://github.com/codyhxyz/create-claude-plugin) in the first place — i knew i'd be shipping a lot of these.
 
 ## how this is wired
 
-a single-author registry. each entry in [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json) points at an external plugin repo via `{"source": "github", "repo": "..."}`. plugin versions are pinned in each plugin's own `plugin.json` (not here), per the official recommendation for non-relative sources.
+single-author registry. each entry in [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json) points at an external plugin repo via `{"source": "github", "repo": "..."}`. versions are pinned in each plugin's own `plugin.json` (not here), per the official recommendation for non-relative sources.
 
 adding a new plugin = append one entry to `marketplace.json`, commit, push. subscribers pick it up on the next `/plugin marketplace update`.
 
