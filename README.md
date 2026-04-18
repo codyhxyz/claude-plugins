@@ -31,11 +31,11 @@ pull new plugins and version bumps:
 
 | Plugin | What it does |
 |---|---|
-| [`create-claude-plugin` 🛠️](https://github.com/codyhxyz/create-claude-plugin) | A claude plugin that ships claude plugins. Scaffold it, validate it, push it, submit it to the official Anthropic marketplace, all in one session. Build what you need, share it with friends. |
-| [`prompt-optimizer` 🎯](https://github.com/codyhxyz/prompt-optimizer) | Fills in the implicit details in your vague prompt. Cuts token use and gets better results in the critical first conversational turn with Opus 4.7. |
-| [`first-principles-review` 🔬](https://github.com/codyhxyz/first-principles-review) | A better code review. Don't let Claude overbuild. Use after one-shotting a project, when you want to make sure Claude built what you wanted it to. |
-| [`eureka` ⚡](https://github.com/codyhxyz/eureka) | A subagent for when claude is trying all the wrong things. Use it when you need Claude to think outside the box. This is my #1 most helpful plugin for unblocking stuck coding sessions. |
-| [`synonymmer` 📚](https://github.com/codyhxyz/synonymmer) | Thesaurus on steroids for naming and brainstorming. Outputs 100-200 latent-space-near words and phrases related to your seed term, organized into clusters. |
+| [`create-claude-plugin` 🛠️](https://github.com/codyhxyz/create-claude-plugin) | A claude plugin that ships claude plugins. Scaffold it, validate it, push it, submit it to the official Anthropic marketplace, all in one session. |
+| [`prompt-optimizer` 🎯](https://github.com/codyhxyz/prompt-optimizer) | Bad prompting poisons your context. This plugin fills in the implicit details in your vague prompt. Cuts token use and gets better results in the critical first conversational turn with Opus 4.7. |
+| [`first-principles-review` 🔬](https://github.com/codyhxyz/first-principles-review) | A better code review. Use after one-shotting a project, when you want to make sure Claude built what you wanted it to. Scope creep killer. |
+| [`eureka` ⚡](https://github.com/codyhxyz/eureka) | A subagent for when claude is trying all the wrong things. Use it when you need Claude to think outside the box. This is my #1 most helpful plugin for unblocking stuck coding sessions. 💡 |
+| [`synonymmer` 📚](https://github.com/codyhxyz/synonymmer) | Thesaurus on steroids for naming and writing. Outputs 100-200 latent-space-near words and phrases related to your seed term, organized into clusters. |
 
 ## why these exist
 
