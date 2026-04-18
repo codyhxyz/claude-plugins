@@ -12,7 +12,7 @@ i build things constantly, things i deeply care about. along the way i keep find
 ## install
 
 ```
-/plugin marketplace add codyhxyz/claude-plugins
+/plugin marketplace add codyhxyz/codyhxyz-plugins
 ```
 
 then install any plugin from the table below:
@@ -43,11 +43,12 @@ some of these are scaffolding for unhobbling the model. some are scaffolding for
 
 watch this space. i'm getting obsessed with claude plugins and starting to understand something about them, which is why i built [`create-claude-plugin`](https://github.com/codyhxyz/create-claude-plugin) in the first place — i knew i'd be shipping a lot of these.
 
-## how this is wired
+Because it breaks the “normal” repository pattern on purpose.
 
-single-author registry. each entry in [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json) points at an external plugin repo via `{"source": "github", "repo": "..."}`. versions are pinned in each plugin's own `plugin.json` (not here), per the official recommendation for non-relative sources.
-
-adding a new plugin = append one entry to `marketplace.json`, commit, push. subscribers pick it up on the next `/plugin marketplace update`.
+- This repo is not a single app; it’s a **control plane + catalog** for many independent plugins.
+- Discovery is separated from implementation: users consume from this index, while plugin behavior lives in other repos.
+- It is **single-source indexing** (`repo` pointers only) plus **distributed ownership** (each plugin owns its own version/behavior), which keeps the registry thin and mutable.
+- That design is “weird” in a good way: less central control, less duplication, and less risk that the catalog becomes a giant monorepo of unrelated code.
 
 ## license
 
