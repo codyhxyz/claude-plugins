@@ -98,18 +98,18 @@
       ]
     },
     {
-      "name": "iconoclast",
+      "name": "eureka",
       "source": {
         "source": "github",
-        "repo": "codyhxyz/iconoclast"
+        "repo": "codyhxyz/eureka"
       },
       "description": "A Claude Code subagent for when Claude is trying all the wrong things — drops the safe answer and reaches for the edge of its training data.",
       "author": {
         "name": "Cody Hergenroeder",
         "email": "plugins@codyh.xyz"
       },
-      "homepage": "https://github.com/codyhxyz/iconoclast",
-      "repository": "https://github.com/codyhxyz/iconoclast",
+      "homepage": "https://github.com/codyhxyz/eureka",
+      "repository": "https://github.com/codyhxyz/eureka",
       "license": "MIT",
       "keywords": [
         "claude-code",

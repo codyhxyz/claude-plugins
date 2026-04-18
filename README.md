@@ -33,9 +33,9 @@ pull new plugins and version bumps:
 |---|---|
 | [`create-claude-plugin` 🛠️](https://github.com/codyhxyz/create-claude-plugin) | A claude plugin that ships claude plugins. Scaffold it, validate it, push it, submit it to the official Anthropic marketplace, all in one session. |
 | [`prompt-optimizer` 🎯](https://github.com/codyhxyz/prompt-optimizer) | Fills in the implicit details in your vague prompt. Cuts token use and gets better results in the critical first conversational turn with Opus 4.7. |
-| [`first-principles-review` 🔬](https://github.com/codyhxyz/first-principles-review) | Reviews codebases top-down: WHY (goal) → WHAT (architecture) → HOW (implementation) → improvements ranked by leverage. Questions the premise, not the semicolons. |
-| [`iconoclast` ⚡](https://github.com/codyhxyz/iconoclast) | A subagent for when claude is trying all the wrong things. Drops the safe answer and reaches for the edge of its training data. |
-| [`synonymmer` 📚](https://github.com/codyhxyz/synonymmer) | 100–200 wide-net related words for a seed term, organized into vibe-based clusters. Thesaurus on steroids for naming and brainstorming. |
+| [`first-principles-review` 🔬](https://github.com/codyhxyz/first-principles-review) | A better code review. Less over-building, more delivering what you asked for. |
+| [`eureka` ⚡](https://github.com/codyhxyz/eureka) | A subagent for when claude is trying all the wrong things. Use it when you need Claude to think outside the box. This is my "eureka" plugin, my #1 most helpful plugin in daily use. |
+| [`synonymmer` 📚](https://github.com/codyhxyz/synonymmer) | Thesaurus on steroids for naming and brainstorming. Outputs 100-200 latent-space-near words and phrases related to your seed term, organized into vibe-based clusters. |
 
 ## why these exist
 
