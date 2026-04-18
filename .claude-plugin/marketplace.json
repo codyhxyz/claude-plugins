@@ -22,9 +22,39 @@
       "homepage": "https://github.com/codyhxyz/prompt-optimizer",
       "repository": "https://github.com/codyhxyz/prompt-optimizer",
       "license": "MIT",
-      "keywords": ["claude-code", "agent", "prompt-engineering", "prompt-optimization", "meta"],
+      "keywords": [
+        "claude-code",
+        "agent",
+        "prompt-engineering",
+        "prompt-optimization",
+        "meta"
+      ],
       "category": "prompt-engineering",
-      "tags": ["agent-handoff", "prompt-engineering", "meta"]
+      "tags": [
+        "agent-handoff",
+        "prompt-engineering",
+        "meta"
+      ]
+    },
+    {
+      "name": "create-claude-plugin",
+      "source": {
+        "source": "github",
+        "repo": "codyhxyz/create-claude-plugin"
+      },
+      "description": "End-to-end skill for creating a Claude Code plugin: scaffold, build, test, host, and submit to the official Anthropic marketplace.",
+      "homepage": "https://github.com/codyhxyz/create-claude-plugin",
+      "repository": "https://github.com/codyhxyz/create-claude-plugin",
+      "keywords": [
+        "claude-code",
+        "plugin",
+        "marketplace",
+        "scaffold",
+        "skill",
+        "agent",
+        "developer-tools",
+        "plugin-development"
+      ]
     }
   ]
 }
