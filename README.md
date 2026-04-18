@@ -34,21 +34,14 @@ pull new plugins and version bumps:
 | [`create-claude-plugin` 🛠️](https://github.com/codyhxyz/create-claude-plugin) | A claude plugin that ships claude plugins. Scaffold it, validate it, push it, submit it to the official Anthropic marketplace, all in one session. |
 | [`prompt-optimizer` 🎯](https://github.com/codyhxyz/prompt-optimizer) | Fills in the implicit details in your vague prompt. Cuts token use and gets better results in the critical first conversational turn with Opus 4.7. |
 | [`first-principles-review` 🔬](https://github.com/codyhxyz/first-principles-review) | A better code review. Less over-building, more delivering what you asked for. |
-| [`eureka` ⚡](https://github.com/codyhxyz/eureka) | A subagent for when claude is trying all the wrong things. Use it when you need Claude to think outside the box. This is my "eureka" plugin, my #1 most helpful plugin in daily use. |
-| [`synonymmer` 📚](https://github.com/codyhxyz/synonymmer) | Thesaurus on steroids for naming and brainstorming. Outputs 100-200 latent-space-near words and phrases related to your seed term, organized into vibe-based clusters. |
+| [`eureka` ⚡](https://github.com/codyhxyz/eureka) | A subagent for when claude is trying all the wrong things. Use it when you need Claude to think outside the box. This is my #1 most helpful plugin for unblocking stuck coding sessions. |
+| [`synonymmer` 📚](https://github.com/codyhxyz/synonymmer) | Thesaurus on steroids for naming and brainstorming. Outputs 100-200 latent-space-near words and phrases related to your seed term, organized into clusters. |
 
 ## why these exist
 
 some of these are scaffolding for unhobbling the model. some are scaffolding for unhobbling yourself. a couple are just neat.
 
 watch this space. i'm getting obsessed with claude plugins and starting to understand something about them, which is why i built [`create-claude-plugin`](https://github.com/codyhxyz/create-claude-plugin) in the first place — i knew i'd be shipping a lot of these.
-
-Because it breaks the “normal” repository pattern on purpose.
-
-- This repo is not a single app; it’s a **control plane + catalog** for many independent plugins.
-- Discovery is separated from implementation: users consume from this index, while plugin behavior lives in other repos.
-- It is **single-source indexing** (`repo` pointers only) plus **distributed ownership** (each plugin owns its own version/behavior), which keeps the registry thin and mutable.
-- That design is “weird” in a good way: less central control, less duplication, and less risk that the catalog becomes a giant monorepo of unrelated code.
 
 ## license
 
