@@ -1,0 +1,102 @@
+{
+  "name": "codyhxyz-plugins",
+  "metadata": {
+    "description": "Cody Hergenroeder's registry of Claude Code plugins — add once, install any."
+  },
+  "owner": {
+    "name": "Cody Hergenroeder",
+    "email": "plugins@codyh.xyz"
+  },
+  "plugins": [
+    {
+      "name": "prompt-optimizer",
+      "source": {
+        "source": "github",
+        "repo": "codyhxyz/prompt-optimizer"
+      },
+      "description": "A Claude Code agent that turns vague task requests into grounded, structured specs for clean handoffs to your implementation agent.",
+      "author": {
+        "name": "Cody Hergenroeder",
+        "email": "plugins@codyh.xyz"
+      },
+      "homepage": "https://github.com/codyhxyz/prompt-optimizer",
+      "repository": "https://github.com/codyhxyz/prompt-optimizer",
+      "license": "MIT",
+      "keywords": ["claude-code", "agent", "prompt-engineering", "prompt-optimization", "meta"],
+      "category": "prompt-engineering",
+      "tags": ["agent-handoff", "prompt-engineering", "meta"]
+    },
+    {
+      "name": "create-claude-plugin",
+      "source": {
+        "source": "github",
+        "repo": "codyhxyz/create-claude-plugin"
+      },
+      "description": "A Claude plugin that ships Claude plugins: the build-and-publish layer for the era of bespoke AI. End-to-end skill for scaffolding, testing, hosting, and submitting a plugin to the official Anthropic marketplace.",
+      "author": {
+        "name": "Cody Hergenroeder",
+        "email": "plugins@codyh.xyz"
+      },
+      "homepage": "https://github.com/codyhxyz/create-claude-plugin",
+      "repository": "https://github.com/codyhxyz/create-claude-plugin",
+      "license": "MIT",
+      "keywords": ["claude-code", "plugin", "marketplace", "scaffold", "skill", "agent", "developer-tools", "plugin-development"],
+      "category": "developer-tools",
+      "tags": ["plugin-development", "meta", "scaffold", "publishing"]
+    },
+    {
+      "name": "first-principles-review",
+      "source": {
+        "source": "github",
+        "repo": "codyhxyz/first-principles-review"
+      },
+      "description": "A Claude Code skill that reviews codebases top-down: WHY (goal) → WHAT (architecture) → HOW (implementation) → improvements ranked by leverage. The antidote to surface-level LLM nitpick reviews.",
+      "author": {
+        "name": "Cody Hergenroeder",
+        "email": "plugins@codyh.xyz"
+      },
+      "homepage": "https://github.com/codyhxyz/first-principles-review",
+      "repository": "https://github.com/codyhxyz/first-principles-review",
+      "license": "MIT",
+      "keywords": ["claude-code", "skill", "code-review", "architecture", "first-principles", "refactoring"],
+      "category": "code-review",
+      "tags": ["code-review", "architecture", "first-principles"]
+    },
+    {
+      "name": "iconoclast",
+      "source": {
+        "source": "github",
+        "repo": "codyhxyz/iconoclast"
+      },
+      "description": "A Claude Code subagent for when Claude is playing it safe and you need it to actually solve the problem. Pushes toward edge-of-training-data techniques instead of the obvious fix.",
+      "author": {
+        "name": "Cody Hergenroeder",
+        "email": "plugins@codyh.xyz"
+      },
+      "homepage": "https://github.com/codyhxyz/iconoclast",
+      "repository": "https://github.com/codyhxyz/iconoclast",
+      "license": "MIT",
+      "keywords": ["claude-code", "agent", "subagent", "performance", "refactoring", "first-principles", "architecture"],
+      "category": "architecture",
+      "tags": ["subagent", "first-principles", "unconventional"]
+    },
+    {
+      "name": "synonymmer",
+      "source": {
+        "source": "github",
+        "repo": "codyhxyz/synonymmer"
+      },
+      "description": "Generate 100–200 wide-net related words for a seed term, organized into scannable vibe-based clusters. Thesaurus-on-steroids for naming and brainstorming.",
+      "author": {
+        "name": "Cody Hergenroeder",
+        "email": "plugins@codyh.xyz"
+      },
+      "homepage": "https://github.com/codyhxyz/synonymmer",
+      "repository": "https://github.com/codyhxyz/synonymmer",
+      "license": "MIT",
+      "keywords": ["claude-code", "naming", "brainstorming", "thesaurus", "writing", "copywriting", "wordlist"],
+      "category": "writing",
+      "tags": ["naming", "brainstorming", "copywriting"]
+    }
+  ]
+}
