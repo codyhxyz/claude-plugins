@@ -300,6 +300,26 @@
         "audit",
         "hardening"
       ]
+    },
+    {
+      "name": "create-chrome-extension",
+      "source": {
+        "source": "github",
+        "repo": "codyhxyz/create-chrome-extension"
+      },
+      "description": "Six skills that scaffold a Chrome extension, fill the listing copy, capture screenshots, set up Chrome Web Store OAuth, and orchestrate submission. Pairs with the cce-factory WXT template.",
+      "homepage": "https://github.com/codyhxyz/create-chrome-extension",
+      "repository": "https://github.com/codyhxyz/create-chrome-extension",
+      "keywords": [
+        "claude-code",
+        "claude-code-plugin",
+        "claude-skill",
+        "chrome-extension",
+        "chrome-web-store",
+        "wxt",
+        "scaffold",
+        "browser-extension"
+      ]
     }
   ]
 }
