@@ -48,9 +48,4 @@
     <text class="params" y="72">n = 1,000,000 &#183; &#945; = 0.018</text>
   </g>
 
-  <!-- Stamp lower-right -->
-  <g transform="translate(1358, 358)" text-anchor="end">
-    <text class="stamp">seed 0x1EAF</text>
-    <text class="stamp stamp-small" y="20">living cover</text>
-  </g>
 </svg>
