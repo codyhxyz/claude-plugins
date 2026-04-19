@@ -69,6 +69,37 @@
       ]
     },
     {
+      "name": "create-chrome-extension",
+      "source": {
+        "source": "github",
+        "repo": "codyhxyz/create-chrome-extension"
+      },
+      "description": "Six skills + a WXT factory that take you from Chrome extension idea to live on the Web Store in one Claude session. Encodes ~18 Chrome Web Store rules as validators so you can't accidentally ship a half-baked listing.",
+      "author": {
+        "name": "Cody Hergenroeder",
+        "email": "plugins@codyh.xyz"
+      },
+      "homepage": "https://github.com/codyhxyz/create-chrome-extension",
+      "repository": "https://github.com/codyhxyz/create-chrome-extension",
+      "license": "MIT",
+      "keywords": [
+        "claude-code",
+        "claude-code-plugin",
+        "claude-skill",
+        "chrome-extension",
+        "chrome-web-store",
+        "wxt",
+        "scaffold",
+        "browser-extension"
+      ],
+      "category": "developer-tools",
+      "tags": [
+        "chrome-extension",
+        "scaffold",
+        "publishing"
+      ]
+    },
+    {
       "name": "first-principles-review",
       "source": {
         "source": "github",

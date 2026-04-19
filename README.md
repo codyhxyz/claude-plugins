@@ -38,6 +38,7 @@ clustered by what they're for. mine are marked with no badge; curated third-part
 | Plugin | What it does |
 |---|---|
 | [`create-claude-plugin` 🛠️](https://github.com/codyhxyz/create-claude-plugin) | A claude plugin that ships claude plugins. Scaffold it, validate it, push it, submit it to the official Anthropic marketplace, all in one session. Makes your plugins look gooood on GitHub + elsewhere. |
+| [`create-chrome-extension` 🧩](https://github.com/codyhxyz/create-chrome-extension) | Six skills + a WXT factory that take you from Chrome extension idea to live on the Web Store in one Claude session. Encodes ~18 Chrome Web Store rules as validators so you can't accidentally ship a half-baked listing. |
 
 ### engineering
 
@@ -52,8 +53,13 @@ clustered by what they're for. mine are marked with no badge; curated third-part
 | Plugin | What it does |
 |---|---|
 | [`synonymmer` 📚](https://github.com/codyhxyz/synonymmer) | Thesaurus on steroids for naming and writing. Outputs 100-200 latent-space-near words and phrases related to your seed term, organized into clusters. |
-| [`spotify-notes` 🎧](https://github.com/codyhxyz/spotify-notes-plugin) | A song-indexed journal for whatever Spotify is playing right now. Say "note: that piano at 2:14 is killing me" and it lands in a per-track markdown file with a timestamp. Zero OAuth — uses the desktop app's own IPC. |
 | [`humanizer` ✍️ ↗](https://github.com/blader/humanizer) | **↗ not mine, just rec'd.** Strips AI tells from text — em-dash overuse, inflated adjectives, filler phrases, the whole "signs of AI writing" checklist. Runs a second pass to catch its own lingering AI-isms, and can voice-match from a writing sample so the output sounds like *you*, not like a cleaned-up LLM. |
+
+### notetaking
+
+| Plugin | What it does |
+|---|---|
+| [`spotify-notes` 🎧](https://github.com/codyhxyz/spotify-notes-plugin) | A song-indexed journal for whatever Spotify is playing right now. Say "note: that piano at 2:14 is killing me" and it lands in a per-track markdown file with a timestamp. Zero OAuth — uses the desktop app's own IPC. |
 
 ### claude code quality-of-life
 
