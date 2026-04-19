@@ -178,7 +178,7 @@
         "rate-limits",
         "token-management"
       ],
-      "category": "developer-tools",
+      "category": "claude-code-qol",
       "tags": [
         "statusline",
         "context-management",
@@ -208,7 +208,7 @@
         "sound-effects",
         "notification"
       ],
-      "category": "developer-tools",
+      "category": "claude-code-qol",
       "tags": [
         "hooks",
         "audio",
@@ -279,6 +279,38 @@
         "incident-response",
         "secrets-rotation",
         "vercel"
+      ]
+    },
+    {
+      "name": "handoff",
+      "source": {
+        "source": "github",
+        "repo": "codyhxyz/handoff"
+      },
+      "description": "When Claude opens a URL in your browser for you to take an action, Handoff drops a sticky note on that page reminding you what you're supposed to do. Powered by the Web Annotator extension.",
+      "author": {
+        "name": "Cody Hergenroeder",
+        "email": "plugins@codyh.xyz"
+      },
+      "homepage": "https://github.com/codyhxyz/handoff",
+      "repository": "https://github.com/codyhxyz/handoff",
+      "license": "MIT",
+      "keywords": [
+        "claude-code",
+        "claude-code-plugin",
+        "claude-hook",
+        "claude-skill",
+        "browser",
+        "annotations",
+        "sticky-notes",
+        "task-context"
+      ],
+      "category": "claude-code-qol",
+      "tags": [
+        "browser",
+        "annotations",
+        "hooks",
+        "task-context"
       ]
     }
   ]
