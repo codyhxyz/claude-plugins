@@ -59,7 +59,7 @@ clustered by what they're for. mine are marked with no badge; curated third-part
 
 | Plugin | What it does |
 |---|---|
-| [`blast-radius` 💥](https://github.com/codyhxyz/blast-radius) | Multi-provider security audit + breach-response toolkit. Inventory your Vercel env-var/token surface, classify by risk, rotate creds with provider deep-links + automated platform-side swaps, install pre-emptive hardening hooks. Built in response to the April 2026 Vercel breach. When the next breach hits, your response time is 15 minutes, not 3 days. |
+| [`metapod-harden` 🛡️](https://github.com/codyhxyz/metapod-harden) | Multi-provider security audit + breach-response toolkit. Inventory your Vercel env-var/token surface, classify by risk, rotate creds with provider deep-links + automated platform-side swaps, install pre-emptive hardening hooks. Built in response to the April 2026 Vercel breach. When the next breach hits, your response time is 15 minutes, not 3 days. |
 
 ### claude code quality-of-life
 
