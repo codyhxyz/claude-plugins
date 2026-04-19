@@ -184,6 +184,36 @@
         "context-management",
         "rate-limits"
       ]
+    },
+    {
+      "name": "hook-sounds",
+      "source": {
+        "source": "github",
+        "repo": "codyhxyz/hook-sounds"
+      },
+      "description": "Plays short audio stings on Claude Code hook events (SessionStart, Stop, Notification, SessionEnd). Ships with an Oddworld pack; drop your own in to override. macOS only.",
+      "author": {
+        "name": "Cody Hergenroeder",
+        "email": "plugins@codyh.xyz"
+      },
+      "homepage": "https://github.com/codyhxyz/hook-sounds",
+      "repository": "https://github.com/codyhxyz/hook-sounds",
+      "license": "MIT",
+      "keywords": [
+        "claude-code",
+        "claude-code-plugin",
+        "claude-hook",
+        "hooks",
+        "audio",
+        "sound-effects",
+        "notification"
+      ],
+      "category": "developer-tools",
+      "tags": [
+        "hooks",
+        "audio",
+        "sound-effects"
+      ]
     }
   ]
 }
