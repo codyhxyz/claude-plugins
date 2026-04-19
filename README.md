@@ -55,12 +55,6 @@ clustered by what they're for. mine are marked with no badge; curated third-part
 | [`spotify-notes` 🎧](https://github.com/codyhxyz/spotify-notes-plugin) | A song-indexed journal for whatever Spotify is playing right now. Say "note: that piano at 2:14 is killing me" and it lands in a per-track markdown file with a timestamp. Zero OAuth — uses the desktop app's own IPC. |
 | [`humanizer` ✍️ ↗](https://github.com/blader/humanizer) | **↗ not mine, just rec'd.** Strips AI tells from text — em-dash overuse, inflated adjectives, filler phrases, the whole "signs of AI writing" checklist. Runs a second pass to catch its own lingering AI-isms, and can voice-match from a writing sample so the output sounds like *you*, not like a cleaned-up LLM. |
 
-### security
-
-| Plugin | What it does |
-|---|---|
-| [`metapod-harden` 🛡️](https://github.com/codyhxyz/metapod-harden) | Multi-provider security audit + breach-response toolkit. Inventory your Vercel env-var/token surface, classify by risk, rotate creds with provider deep-links + automated platform-side swaps, install pre-emptive hardening hooks. Built in response to the April 2026 Vercel breach. When the next breach hits, your response time is 15 minutes, not 3 days. |
-
 ### claude code quality-of-life
 
 | Plugin | What it does |
