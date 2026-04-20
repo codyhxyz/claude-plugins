@@ -311,18 +311,18 @@
       ]
     },
     {
-      "name": "font-foundry",
+      "name": "font-copier",
       "source": {
         "source": "github",
-        "repo": "codyhxyz/font-foundry"
+        "repo": "codyhxyz/font-copier"
       },
       "description": "Recreate a font from a specimen image via bitmap tracing — picks a matching OFL base from Google Fonts, renders each glyph at 2000px/em, runs potrace, and builds a clean OTF with a new name.",
       "author": {
         "name": "Cody Hergenroeder",
         "email": "plugins@codyh.xyz"
       },
-      "homepage": "https://github.com/codyhxyz/font-foundry",
-      "repository": "https://github.com/codyhxyz/font-foundry",
+      "homepage": "https://github.com/codyhxyz/font-copier",
+      "repository": "https://github.com/codyhxyz/font-copier",
       "license": "MIT",
       "keywords": [
         "claude-code",

@@ -65,7 +65,7 @@ clustered by what they're for. mine are marked with no badge; curated third-part
 
 | Plugin | What it does |
 |---|---|
-| [`font-foundry` 🔤](https://github.com/codyhxyz/font-foundry) | Show Claude a font you like — walk away with your own OTF of it. Picks a matching OFL base from Google Fonts, renders 82 glyphs at 2000px/em, traces with potrace, rebuilds a clean TrueType `glyf` table. No hand-coded beziers. |
+| [`font-copier` 🔤](https://github.com/codyhxyz/font-copier) | Show Claude a font you like — walk away with your own OTF of it. Picks a matching OFL base from Google Fonts, renders 82 glyphs at 2000px/em, traces with potrace, rebuilds a clean TrueType `glyf` table. No hand-coded beziers. |
 
 ### claude code quality-of-life
 
