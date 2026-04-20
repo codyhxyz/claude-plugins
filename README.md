@@ -66,6 +66,7 @@ clustered by what they're for. mine are marked with no badge; curated third-part
 | Plugin | What it does |
 |---|---|
 | [`font-copier` 🔤](https://github.com/codyhxyz/font-copier) | Show Claude a font you like — walk away with your own OTF of it. Picks a matching OFL base from Google Fonts, renders 82 glyphs at 2000px/em, traces with potrace, rebuilds a clean TrueType `glyf` table. No hand-coded beziers. |
+| [`frontend-design` 🎨 ↗](https://github.com/anthropics/claude-code/tree/main/plugins/frontend-design) | **↗ not mine, just rec'd.** Anthropic's own plugin for generating distinctive, production-grade UI — the antidote to default-Tailwind AI slop. Pair with `font-copier` when you need the typography to match. Install: `/plugin marketplace add anthropics/claude-code` then `/plugin install frontend-design@claude-code-plugins`. |
 
 ### claude code quality-of-life
 
