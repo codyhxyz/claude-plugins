@@ -61,6 +61,12 @@ clustered by what they're for. mine are marked with no badge; curated third-part
 |---|---|
 | [`spotify-notes` 🎧](https://github.com/codyhxyz/spotify-notes-plugin) | A song-indexed journal for whatever Spotify is playing right now. Say "note: that piano at 2:14 is killing me" and it lands in a per-track markdown file with a timestamp. Zero OAuth — uses the desktop app's own IPC. |
 
+### design
+
+| Plugin | What it does |
+|---|---|
+| [`font-foundry` 🔤](https://github.com/codyhxyz/font-foundry) | Show Claude a font you like — walk away with your own OTF of it. Picks a matching OFL base from Google Fonts, renders 82 glyphs at 2000px/em, traces with potrace, rebuilds a clean TrueType `glyf` table. No hand-coded beziers. |
+
 ### claude code quality-of-life
 
 | Plugin | What it does |
