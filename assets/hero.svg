@@ -37,15 +37,5 @@
   <!-- Subtle darken under text zones to guarantee legibility over the attractor traces -->
   <rect x="0" y="0" width="560" height="130" fill="url(#tl-fade)" opacity="0"/>
 
-  <!-- Wordmark upper-left -->
-  <g transform="translate(42, 72)" filter="url(#soft-glow)">
-    <text class="wordmark" font-size="54">codyhxyz-plugins</text>
-  </g>
-  <text class="sub" x="42" y="114">agentic scaffolding for thinking alongside LLMs</text>
-
-  <!-- Tagline lower-right -->
-  <text class="tag" text-anchor="end" x="1358" y="358" font-size="26">&#8220;for those who need</text>
-  <text class="tag" text-anchor="end" x="1358" y="388" font-size="26">the lemon zest.&#8221;</text>
-
 
 </svg>
