@@ -1,8 +1,11 @@
 # codyhxyz-plugins 🍋
+These days I talk to my computer more than I use the keyboard and mouse. We've entered a new dawn of human-computer interaction where individuals' computer use is starting to diverge. If 2025 was the Year of the Agent, 2026 the start to the era of '[Bespoke Software](https://x.com/karpathy/status/2024583544157458452)'.
 
-*agentic scaffolding for thinking alongside LLMs.*
+In the spirit of open-sourcing myself, I'm open-sourcing my Claude plugins. The gap between individuals who are augmenting themselves and those who aren't is growing. When I find a way of working with the computer that works for me, I want to share that experience. This is my contribution bridge that gap. 
 
-i build things constantly, things i deeply care about. along the way i keep finding little heuristics that work for me, and if they work for me they probably work for someone else too. so in the spirit of open-sourcing myself, i'm open-sourcing the heuristics as plugins. this is how i work with claude.
+Less is more. As the cost of software development approaches $0, it's getting harder to see the signal through the noise. I publish here when what I build passes the "You-Aren't-Gonna-Need-It" check. This is my contribution to increase the Signal-to-Noise Ratio.
+
+These are the tools I use to interact with the digital world. This is my bespoke interface.
 
 <p>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
