@@ -80,18 +80,23 @@ or set it in `~/.claude/settings.json`:
 | [`font-pirate` 🔤](https://github.com/codyhxyz/font-pirate) | All fonts are free now. |
 | [`frontend-design` 🎨 ↗](https://github.com/anthropics/claude-code/tree/main/plugins/frontend-design) | **↗ not mine, just rec'd.** Anthropic's own plugin for generating distinctive, production-grade UI — the antidote to default-Tailwind AI slop. Pair with `font-pirate` when you need the typography to match. Install: `/plugin marketplace add anthropics/claude-code && /plugin install frontend-design@claude-code-plugins`. |
 
-### quality of life
+### token use reduction
 
 | Plugin | What it does |
 |---|---|
 | [`statusline` 📊](https://github.com/codyhxyz/statusline) | A Claude Code statusline with HSL-gradient ring meters for context window and 5h/7d rate limits with live reset countdowns. Catch context rot before Anthropic tells you to `/clear`. |
+- RTK for token use reduction
+- context-mode for token reduction
+- caveman for token reduction
+
+### interaction
+
+| Plugin | What it does |
+|---|---|
 | [`hook-sounds` 🔊](https://github.com/codyhxyz/hook-sounds) | Customizable Claude Code notification sound setup via hooks. Ships with an Oddworld: Munch's Oddysee pack by default — dumb, joyful. Swap in your own CC0 sounds if you'd rather. macOS only. |
-
-## why these exist
-
-some of these are scaffolding for unhobbling the model. some are scaffolding for unhobbling yourself. a couple are just neat.
-
-watch this space. i'm getting obsessed with claude plugins and starting to understand something about them, which is why i built [`create-claude-plugin`](https://github.com/codyhxyz/create-claude-plugin) in the first place—i knew i'd be shipping a lot of these.
+- Push to mobile default false -> true
+- all claude code sessions accessible via remote control by default false -> true
+- added a stop-hook that asks claude to check whether it should notify me on phone (ie: running long command >30s, blocked by my decision)
 
 ## license
 
