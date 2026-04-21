@@ -247,38 +247,6 @@
       ]
     },
     {
-      "name": "spotify-notes",
-      "source": {
-        "source": "github",
-        "repo": "codyhxyz/spotify-notes-plugin"
-      },
-      "description": "Take timestamped notes on whatever you're listening to right now on Spotify, from inside Claude Code — no auth, no context switch. Uses the desktop app's own IPC (AppleScript / playerctl); notes land in per-track markdown files.",
-      "author": {
-        "name": "Cody Hergenroeder",
-        "email": "plugins@codyh.xyz"
-      },
-      "homepage": "https://github.com/codyhxyz/spotify-notes-plugin",
-      "repository": "https://github.com/codyhxyz/spotify-notes-plugin",
-      "license": "MIT",
-      "keywords": [
-        "claude-code",
-        "claude-code-plugin",
-        "claude-skill",
-        "spotify",
-        "notes",
-        "music",
-        "journaling",
-        "now-playing"
-      ],
-      "category": "writing",
-      "tags": [
-        "music",
-        "notes",
-        "journaling",
-        "applescript"
-      ]
-    },
-    {
       "name": "handoff",
       "source": {
         "source": "github",
@@ -340,28 +308,6 @@
         "typography",
         "type-design",
         "fonts"
-      ]
-    },
-    {
-      "name": "metapod-harden",
-      "source": {
-        "source": "github",
-        "repo": "codyhxyz/metapod-harden"
-      },
-      "description": "Multi-provider security audit + breach-response toolkit for Claude Code. Inventory your cloud env-var/token surface, classify by risk, rotate credentials with provider deep-links + automated Vercel-side swaps, and install pre-emptive hardening hooks. Built in response to the April 2026 Vercel breach.",
-      "homepage": "https://github.com/codyhxyz/metapod-harden",
-      "repository": "https://github.com/codyhxyz/metapod-harden",
-      "keywords": [
-        "claude-code",
-        "claude-code-plugin",
-        "claude-skill",
-        "claude-hook",
-        "security",
-        "secrets-rotation",
-        "vercel",
-        "incident-response",
-        "audit",
-        "hardening"
       ]
     }
   ]
