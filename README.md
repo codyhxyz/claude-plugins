@@ -85,18 +85,19 @@ or set it in `~/.claude/settings.json`:
 | Plugin | What it does |
 |---|---|
 | [`statusline` 📊](https://github.com/codyhxyz/statusline) | A Claude Code statusline with HSL-gradient ring meters for context window and 5h/7d rate limits with live reset countdowns. Catch context rot before Anthropic tells you to `/clear`. |
-- RTK for token use reduction
-- context-mode for token reduction
-- caveman for token reduction
+| [`rtk` 🦀 ↗](https://www.rtk-ai.app/) | **↗ not mine, just rec'd.** CLI proxy that transparently rewrites dev commands (git, npm, etc.) to token-optimized equivalents. 60–90% savings on routine tool output — Claude sees filtered summaries instead of raw dumps. |
+| [`context-mode` 🪟 ↗](https://github.com/mksglu/context-mode) | **↗ not mine, just rec'd.** MCP server that sandboxes bash/code execution and keeps large outputs out of your context window. Pairs an FTS5 knowledge base with BM25 ranking so you can query past tool output instead of re-reading it. |
+| [`caveman` 🪨 ↗](https://github.com/JuliusBrussee/caveman) | **↗ not mine, just rec'd.** Ultra-compressed communication mode. Cuts output tokens ~75% by talking like a caveman while preserving full technical accuracy. Lite / full / ultra intensity. |
+| `claude --system-prompt "☯️"` | Zen mode. Skip Claude Code's default system prompt by overriding it with a single symbol. Lower per-turn overhead for quick one-shot queries where you don't need the full tool preamble. |
 
 ### interaction
 
 | Plugin | What it does |
 |---|---|
 | [`hook-sounds` 🔊](https://github.com/codyhxyz/hook-sounds) | Customizable Claude Code notification sound setup via hooks. Ships with an Oddworld: Munch's Oddysee pack by default — dumb, joyful. Swap in your own CC0 sounds if you'd rather. macOS only. |
-- Push to mobile default false -> true
-- all claude code sessions accessible via remote control by default false -> true
-- added a stop-hook that asks claude to check whether it should notify me on phone (ie: running long command >30s, blocked by my decision)
+| **Mobile push notifications, on by default** | Flip `push-to-mobile` from off → on so Claude can wake your phone when it's waiting on you — long-running commands, blocked decisions, review gates. Requires the Claude mobile app. |
+| **Remote control, on by default** | Flip the default so every Claude Code session is reachable from the mobile app. Steer runs from anywhere without having to be at the laptop. |
+| **Phone-notify stop hook** | A Stop hook that asks Claude, *"should I page you on mobile?"* — fires on long commands (>30s) or when blocked on a decision, skips trivial turns. Prevents the "push for every turn" spam you'd get from an always-on notifier. |
 
 ## license
 
