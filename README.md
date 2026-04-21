@@ -74,8 +74,8 @@ or set it in `~/.claude/settings.json`:
 
 | Plugin | What it does |
 |---|---|
-| [`font-copier` 🔤](https://github.com/codyhxyz/font-copier) | All fonts are free now. |
-| [`frontend-design` 🎨 ↗](https://github.com/anthropics/claude-code/tree/main/plugins/frontend-design) | **↗ not mine, just rec'd.** Anthropic's own plugin for generating distinctive, production-grade UI — the antidote to default-Tailwind AI slop. Pair with `font-copier` when you need the typography to match. Install: `/plugin marketplace add anthropics/claude-code && /plugin install frontend-design@claude-code-plugins`. |
+| [`font-pirate` 🔤](https://github.com/codyhxyz/font-pirate) | All fonts are free now. |
+| [`frontend-design` 🎨 ↗](https://github.com/anthropics/claude-code/tree/main/plugins/frontend-design) | **↗ not mine, just rec'd.** Anthropic's own plugin for generating distinctive, production-grade UI — the antidote to default-Tailwind AI slop. Pair with `font-pirate` when you need the typography to match. Install: `/plugin marketplace add anthropics/claude-code && /plugin install frontend-design@claude-code-plugins`. |
 
 ### quality of life
 
