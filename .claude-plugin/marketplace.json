@@ -309,6 +309,26 @@
         "type-design",
         "fonts"
       ]
+    },
+    {
+      "name": "heuristics",
+      "source": {
+        "source": "github",
+        "repo": "codyhxyz/heuristics"
+      },
+      "description": "A grab-bag of reusable mental models and patterns — invoked on-demand as skills when the situation calls for them.",
+      "homepage": "https://github.com/codyhxyz/heuristics",
+      "repository": "https://github.com/codyhxyz/heuristics",
+      "keywords": [
+        "claude-code",
+        "claude-code-plugin",
+        "claude-skill",
+        "heuristics",
+        "patterns",
+        "mental-models",
+        "research",
+        "workflow"
+      ]
     }
   ]
 }
