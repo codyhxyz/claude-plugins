@@ -65,6 +65,7 @@ or set it in `~/.claude/settings.json`:
 | [`prompt-optimizer` 🎯](https://github.com/codyhxyz/prompt-optimizer) | Bad prompting poisons your context. This plugin fills in the implicit details in your vague prompt. Cuts token use and gets better results in the critical first conversational turn with Opus 4.7. |
 | [`first-principles-review` 🔬](https://github.com/codyhxyz/first-principles-review) | A better code review. Use after one-shotting a project, when you want to make sure Claude built what you wanted it to. Scope creep killer. |
 | [`eureka` ⚡](https://github.com/codyhxyz/eureka) | A subagent for when claude is trying all the wrong things. Use it when you need Claude to think outside the box. This is my #1 most helpful plugin for unblocking stuck coding sessions. 💡 |
+| [`no-cant` 🙅](https://github.com/codyhxyz/no-cant) | Stop hook that catches "can't"/"cannot" in Claude's replies and forces a four-move reframe — name the constraint, list what IS possible, surface tradeoffs, recommend one. Chief-of-staff posture, not refusal posture. |
 
 ### writing
 
