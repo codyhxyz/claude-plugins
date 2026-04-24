@@ -342,18 +342,18 @@
       ]
     },
     {
-      "name": "no-cant",
+      "name": "never-say-never",
       "source": {
         "source": "github",
-        "repo": "codyhxyz/no-cant"
+        "repo": "codyhxyz/never-say-never"
       },
       "description": "Stop hook that catches low-agency language (can't/cannot) in Claude's replies and forces a reframe via a bundled high-agency skill.",
       "author": {
         "name": "Cody Hergenroeder",
         "email": "plugins@codyh.xyz"
       },
-      "homepage": "https://github.com/codyhxyz/no-cant",
-      "repository": "https://github.com/codyhxyz/no-cant",
+      "homepage": "https://github.com/codyhxyz/never-say-never",
+      "repository": "https://github.com/codyhxyz/never-say-never",
       "license": "MIT",
       "keywords": [
         "claude-code",
